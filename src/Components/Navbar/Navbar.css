@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+  margin-bottom: 10px;
+  height: 60px;
+
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.navbar-left {
+  margin-left: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.navbar-right {
+  display: flex;
+
+  margin-right: 40px;
+
+  column-gap: 2rem;
+}
+.p {
+  font-weight: bold;
+  cursor: pointer;
+  color: black;
+}
